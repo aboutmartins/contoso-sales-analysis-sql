@@ -38,7 +38,6 @@ SELECT
     SalesKey,
     COUNT(*) AS Contagem
 FROM FactSales
-
 GROUP BY SalesKey
 HAVING COUNT(*) > 1;
 
