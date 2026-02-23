@@ -128,7 +128,10 @@ Organização de consultas SQL em etapas lógicas
 
 ## 📊 Resultado
 
-![Resultado](images/Resultado.png)
+![Resultado](Resultado.png)
+
+##  ✅  Validação de Granulidade
+![validacaogranulidade](validacaogranulidade.png)
 
 👤 Autor
 
