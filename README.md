@@ -124,7 +124,7 @@ Organização de consultas SQL em etapas lógicas
 
 ## 📸 Query Utilizada
 
-![Query](images/Query.png)
+![Query](Query.png)
 
 ## 📊 Resultado
 
