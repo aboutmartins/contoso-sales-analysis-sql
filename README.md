@@ -26,7 +26,7 @@ Base utilizada: Microsoft Contoso BI Demo Dataset for Retail Industry
 Tabela principal: FactSales
 
 
-##🔍 Validação da Granularidade dos Dados
+## 🔍 Validação da Granularidade dos Dados
 
 Antes do cálculo das métricas, foi realizada uma verificação para entender a granularidade da tabela FactSales, especificamente se o identificador SalesKey representava uma venda única ou se poderia existir mais de uma linha por pedido.
 
