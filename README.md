@@ -3,27 +3,28 @@ SQL project analyzing store performance using the Contoso dataset with business 
 
 📊 CASE: EMPRESA CONTOSO
 Análise de Performance de Lojas — SQL (Contoso Dataset)
+
+
 🎯 Objetivo
 
 Este projeto tem como objetivo analisar a performance das lojas a partir de dados de vendas, calculando métricas fundamentais de negócio e criando um ranking baseado no ticket médio.
 
 O case simula um cenário comum em empresas de varejo, onde é necessário entender:
 
-Quais lojas faturam mais
+1.Quais lojas faturam mais
 
-Qual o comportamento médio de compra
+2.Qual o comportamento médio de compra
 
-Participação percentual de cada loja no faturamento total
+3.Participação percentual de cada loja no faturamento total
 
-Ranking de desempenho entre lojas
+4.Ranking de desempenho entre lojas
 
 📂 Dataset
 
 Base utilizada: Microsoft Contoso BI Demo Dataset for Retail Industry
 
-Tabela principal:
+Tabela principal: FactSales
 
-FactSales
 
 🔍 Validação da Granularidade dos Dados
 
@@ -45,55 +46,55 @@ Nenhum registro retornado.
 
 Conclusão
 
-Cada SalesKey aparece apenas uma vez na tabela
+- Cada SalesKey aparece apenas uma vez na tabela
 
-A granularidade da base é 1 linha = 1 venda
+- A granularidade da base é 1 linha = 1 venda
 
-O cálculo do Ticket Médio utilizando COUNT(SalesKey) é adequado
+- O cálculo do Ticket Médio utilizando COUNT(SalesKey) é adequado
 
-Não foi necessário utilizar COUNT(DISTINCT)
+- Não foi necessário utilizar COUNT(DISTINCT)
 
 📊 Métricas Calculadas
 
-Faturamento Total
+- Faturamento Total
 
-Quantidade de Vendas
+- Quantidade de Vendas
 
-Ticket Médio
+- Ticket Médio
 
-Participação (%) no Faturamento Total
+- Participação (%) no Faturamento Total
 
-Ranking por Ticket Médio
+- Ranking por Ticket Médio
 
 🧠 Lógica de Desenvolvimento
 
-A construção da solução foi feita em etapas:
+- A construção da solução foi feita em etapas:
 
-Agregação inicial por StoreKey
+- Agregação inicial por StoreKey
 
-Criação das métricas principais: Faturamento, Quantidade e Ticket Médio
+- Criação das métricas principais: Faturamento, Quantidade e Ticket Médio
 
-Uso de Window Function para cálculo do faturamento total
+- Uso de Window Function para cálculo do faturamento total
 
-Cálculo da participação percentual
+- Cálculo da participação percentual
 
-Aplicação de ranking utilizando DENSE_RANK()
+- Aplicação de ranking utilizando DENSE_RANK()
 
 🛠️ Tecnologias Utilizadas
 
-SQL Server (Banco de Dados)
+- SQL Server (Banco de Dados)
 
-SQL Server Management Studio — SSMS (Ambiente de Desenvolvimento)
+- SQL Server Management Studio — SSMS (Ambiente de Desenvolvimento)
 
-T-SQL
+- T-SQL
 
-CTE (Common Table Expressions)
+- CTE (Common Table Expressions)
 
-Window Functions
+- Window Functions
 
-Funções de Agregação
+- Funções de Agregação
 
-Funções Analíticas (Ranking)
+- Funções Analíticas (Ranking)
 
 📈 Principais Aprendizados
 
@@ -111,15 +112,15 @@ Organização de consultas SQL em etapas lógicas
 
 🚀 Melhorias Futuras
 
-Algumas evoluções que podem ser implementadas:
+- Algumas evoluções que podem ser implementadas:
 
-Análise temporal por mês
+- Análise temporal por mês
 
-Ranking por faturamento
+- Ranking por faturamento
 
-Dashboard em Power BI
+- Dashboard em Power BI
 
-Análise por categoria de produto
+- Análise por categoria de produto
 
 👤 Autor
 
