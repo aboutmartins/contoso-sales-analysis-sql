@@ -100,15 +100,15 @@ Conclusão
 
 Durante o desenvolvimento deste case foram praticados conceitos importantes, como:
 
-Validação de granularidade de tabela fato
+- Validação de granularidade de tabela fato
 
-Construção de métricas de negócio
+- Construção de métricas de negócio
 
-Uso de Window Functions para evitar subqueries complexas
+- Uso de Window Functions para evitar subqueries complexas
 
-Aplicação de ranking analítico
+- Aplicação de ranking analítico
 
-Organização de consultas SQL em etapas lógicas
+- Organização de consultas SQL em etapas lógicas
 
 ## 🚀 Melhorias Futuras
 
