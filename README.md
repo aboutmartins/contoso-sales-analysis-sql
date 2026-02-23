@@ -34,9 +34,11 @@ Esse tipo de validação é importante, pois garante que métricas como Ticket M
 
 Query utilizada
 SELECT 
+
     SalesKey,
     COUNT(*) AS Contagem
 FROM FactSales
+
 GROUP BY SalesKey
 HAVING COUNT(*) > 1;
 
