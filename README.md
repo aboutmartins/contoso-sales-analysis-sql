@@ -5,7 +5,7 @@ SQL project analyzing store performance using the Contoso dataset with business 
 Análise de Performance de Lojas — SQL (Contoso Dataset)
 
 
-#🎯 Objetivo
+# 🎯 Objetivo
 
 Este projeto tem como objetivo analisar a performance das lojas a partir de dados de vendas, calculando métricas fundamentais de negócio e criando um ranking baseado no ticket médio.
 
@@ -19,7 +19,7 @@ O case simula um cenário comum em empresas de varejo, onde é necessário enten
 
 4.Ranking de desempenho entre lojas
 
-##📂 Dataset
+## 📂 Dataset
 
 Base utilizada: Microsoft Contoso BI Demo Dataset for Retail Industry
 
@@ -54,7 +54,7 @@ Conclusão
 
 - Não foi necessário utilizar COUNT(DISTINCT)
 
-##📊 Métricas Calculadas
+## 📊 Métricas Calculadas
 
 - Faturamento Total
 
@@ -66,7 +66,7 @@ Conclusão
 
 - Ranking por Ticket Médio
 
-##🧠 Lógica de Desenvolvimento
+## 🧠 Lógica de Desenvolvimento
 
 - A construção da solução foi feita em etapas:
 
@@ -80,7 +80,7 @@ Conclusão
 
 - Aplicação de ranking utilizando DENSE_RANK()
 
-##🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
 - SQL Server (Banco de Dados)
 
@@ -96,7 +96,7 @@ Conclusão
 
 - Funções Analíticas (Ranking)
 
-##📈 Principais Aprendizados
+## 📈 Principais Aprendizados
 
 Durante o desenvolvimento deste case foram praticados conceitos importantes, como:
 
@@ -110,7 +110,7 @@ Aplicação de ranking analítico
 
 Organização de consultas SQL em etapas lógicas
 
-##🚀 Melhorias Futuras
+## 🚀 Melhorias Futuras
 
 - Algumas evoluções que podem ser implementadas:
 
